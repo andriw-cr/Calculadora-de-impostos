@@ -1,0 +1,117 @@
+body {
+    color: #363636 ;
+    font: normal 18pt Arial;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin-bottom: 80px;
+    }
+
+h1 {
+    text-align: center;
+    background-color: #323232;
+    color: rgb(230, 230, 230);
+    padding: 10px 0px;
+}
+
+#campos_de_consulta {
+   display: flex;
+    max-width: 1000px;
+    margin: 0 auto; 
+}
+
+#campos_de_consulta > div {
+    flex: 1 1 200px;
+    margin: 5px ;
+}
+
+.itens {
+    background-color: rgb(236, 236, 236);
+    max-width: 100%;
+    display: block;
+    text-align: center;
+}
+
+h2 {
+    width: 100%;
+    height: 55px;
+    border-bottom: 2px solid rgb(29, 29, 29);
+    padding-bottom: 10px;
+    }
+
+    h3 {
+        text-align: center;
+        background-color: #323232;
+        color: rgb(230, 230, 230);
+        padding: 10px 0px;
+        margin-top: 0px;
+    }
+
+#ipi, #icms, #custo, #mva {
+    border: 1px solid rgb(29, 29, 29);
+    border-radius: 2px;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    font-size: 17px;
+    margin: -20px 0px 10px 0px;
+}
+
+#botoes {
+    display: flex;
+    margin: 0 auto;
+    max-width: 300px;
+    padding:10px 0px 20px 0px;
+}
+
+#botoes > input {
+    flex: 1 1 80px;
+    margin: 10px;
+}
+
+#botao_reset, #botao_calcular {
+    border: 2px solid #323232;
+    border-radius: 2px;
+    box-shadow: #52525241 4px 4px 6px;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    margin: 0 auto;
+    padding: 9px 12px;
+    width: 0 auto;
+    height:0 auto;
+}
+
+#botao_reset {
+    background-color: rgb(184, 5, 5);
+}
+
+#botao_calcular { background-color: rgb(16, 89, 122);}
+
+
+#res {
+    border: rgb(145, 255, 0) 2px solid;
+    width: 400px;
+    height: 0 auto;
+    text-align: center;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+#calculos {
+    width: 800px;
+    margin: 0 auto;
+    height: 0 auto;
+    border: 1px solid #323232;
+    border-radius: 2px;
+    }
+#calculos > div {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #323232;
+    font-size: 20px;
+}
+    

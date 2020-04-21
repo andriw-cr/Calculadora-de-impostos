@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora de Substituição Tributaria v.2</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="my-script.js"></script>
+</head>
+<body>
+    <h1>Calculadora de ST</h1>
+    <form id="campos_de_consulta">
+        <div class="itens">
+            <h2>Valor interno de <strong>ICMS</strong></h2>
+            <input name="campo" id="icms" placeholder="%">
+        </div>
+        <div class="itens">
+            <h2>Valor de <strong>IPI</strong></h2>
+            <input name="campo" id="ipi" placeholder="%">
+        </div>
+        <div class="itens">
+            <h2>Preço <strong>Bruto</strong></h2>
+            <input name="campo" id="custo" placeholder="R$">
+        </div>
+        <div class="itens">
+            <h2>Aliquota interna <strong>MVA</strong></h2>
+            <input name="campo" id="mva" placeholder="%">
+        </div>
+    </form>
+    <div id="botoes">
+        <input type="button" value="Calcular" onclick="calcular()" id="botao_calcular">
+        <input type="button" onclick="myFunction()" value="Zerar"id="botao_reset">
+    </div>
+    <form id="calculos">
+        <h3>Calculos Realizados</h3>
+
+        <div>
+            <p id="v_ipi" Valor do IPI></p>
+        </div> 
+        <div>
+            <p id="cci"Custo com valor do ipi></p>
+        </div>
+        <div>
+            <p id="cSt"Base de Calculo da ST></p>
+        </div>
+        <div>
+            <p id="valorSt"Valor da St></p>
+        </div>
+        <div>
+            <p id="valorIcmsSt"Valor do ICMS St></p>
+        </div>
+        <h3>O preço do produto com os impostos e St é de :</h3>
+
+        <div> 
+            <p id="Resultado"Valor do produto com impostos></p>
+        </div>
+    </form>
+</body>
+</html>
